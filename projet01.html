@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCUEIL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header-navbar" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" tabindex="0"
+      class=" cbg-darker m-0 p-0">
+
+<section id="header" class="fixed-top ">
+    <nav id="header-navbar" class="navbar navbar-expand-md cbg-darker" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html#acceil"><h3 class="font-stretch text-danger">PORTFOOLIO</h3></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarColor02">
+                <ul class="nav navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#acceil"><b>ACCUEIL</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#soft-skills"><b>COMPÉTENCES</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#experience"><b>EXPÉRIENCES</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.html#projet"
+                           role="button" aria-expanded="false"><b>PROJET</b></a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="index.html#projet">PROJET CAROUSELLE</a>
+                            <a class="dropdown-item" href="projet.html">TOUT PROJET</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="projet01.html">PROJET 01</a>
+                            <a class="dropdown-item" href="projet02.html">PROJET 02</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><b>CONTACT</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <div class="cbg-darker p-1">
+            <ol class="breadcrumb mx-3 m-0 justify-content-end">
+                <li class="breadcrumb-item active " aria-current="page"><b class="text-chalk">Projet 1</b></li>
+                <li class="breadcrumb-item active"><a href="index.html#acceil"
+                                                      class="text-decoration-none text-chalk"><b>Home</b></a></li>
+            </ol>
+        </div>
+    </nav>
+</section>
+
+<section id="spacer-top" class="my-4 p-3"></section>
+
+<section id="projet01" class="row p-4 mt-4 m-0">
+    <h1 class="display-1 text-chalk font-stretch fw-bold">Profile 3DD scan</h1>
+    <h5 class="text-chalk">Construit a base d'une collection d'image en Meshroom et polis en blender</h5>
+
+    <div class="row flex-md-row-reverse p-4">
+        <div class="col-12 col-md-6 col-lg-4">
+            <img class="img-fluid" src="assets/images/CONCRETE001.webp" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-8">
+            <p class="lead text-chalk p-2">
+                Pour réaliser un scan 3D, je commence par prendre une série de photos superposées de mon sujet sous
+                différents angles. J'importe ensuite ces images dans Meshroom, qui les traite pour créer un maillage et
+                une texture 3D. Une fois la numérisation terminée, j'exporte le modèle sous forme de fichier OBJ ou FBX.
+                Ensuite, j'ouvre Blender et j'importe le fichier pour affiner le modèle, peaufiner les textures et
+                ajouter les détails que je souhaite. Enfin, je peux effectuer le rendu de la scène ou exporter le modèle
+                fini pour mes projets.
+            </p>
+        </div>
+    </div>
+    <div class="row flex-md-row-reverse p-4">
+        <div class="col-12 col-md-7 col-lg-9">
+            <p class="lead text-chalk p-2">
+                Pour éditer des modèles 3D dans Blender, je sélectionne le modèle et j'appuie sur Tab pour entrer en
+                mode édition. À partir de là, je peux manipuler les sommets, les arêtes et les faces à l'aide d'outils
+                tels que Extrude, Scale et Loop Cut. J'utilise également des modificateurs pour des ajustements plus
+                complexes.
+            </p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3">
+            <img class="img-fluid" src="assets/images/sandyheads.webp" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<footer class="fixed-bottom d-flex flex-wrap justify-content-between align-items-center p-1 px-4 my-2 text-chalk">
+    <p class="m-0"> © 2024 ALAN OTT - ECOLE HEXAGONE </p>
+    <a class="text-chalk" href="mentions-legal.html">Mentions légales</a>
+</footer>
+
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

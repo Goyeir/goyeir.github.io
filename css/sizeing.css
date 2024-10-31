@@ -1,0 +1,35 @@
+@media (max-width: 576px) {
+    .scroll-height {
+        height: 40vh;
+    }
+
+    #soft-skills-art {
+        width: 1000%;
+    }
+}
+
+@media (min-width: 576px) {
+    .scroll-height {
+        height: 50vh;
+    }
+
+    #soft-skills-art {
+        width: 600%;
+    }
+}
+
+@media (min-width: 992px) {
+    #soft-skills-art {
+        width: 300%;
+    }
+}
+
+.icons-height {
+    height: 100px;
+}
+
+.anchor{
+    display: block;
+    height: 10vh;
+    margin-top: -10vh;
+}

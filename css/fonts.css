@@ -1,0 +1,12 @@
+@font-face {
+    font-family: stretch-pro;
+    src: url(../assets/fonts/StretchPro.otf)
+}
+
+.font-stretch {
+    font-family: stretch-pro;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
